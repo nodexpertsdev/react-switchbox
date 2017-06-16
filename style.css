@@ -1,0 +1,85 @@
+switchSearch {
+  width: 100%;
+  clear: both;
+  display: inline-block;
+}
+/* line 1389, ../SCSS/_various.scss */
+.switchSearch .form-control {
+  width: 80%;
+  float: left;
+}
+/* line 1393, ../SCSS/_various.scss */
+.switchSearch .btn {
+  float: left;
+  margin-left: 5px;
+}
+
+.switchBox {
+  height: 120px;
+  overflow: auto;
+  margin: 15px 0;
+}
+
+.left-box {
+  width: 40%;
+  float: left;
+  position: relative;
+}
+/* line 1408, ../SCSS/_various.scss */
+.left-box .form-control {
+  width: 100%;
+}
+/* line 1412, ../SCSS/_various.scss */
+.right-box {
+  width: 40%;
+  float: left;
+  position: relative;
+}
+/* line 1416, ../SCSS/_various.scss */
+.right-box .form-control {
+  width: 100%;
+}
+/* line 1420, ../SCSS/_various.scss */
+.leftRightBtn {
+  width: 20%;
+  float: left;
+  position: relative;
+  margin-top: 6%;
+  text-align: center;
+}
+/* line 1426, ../SCSS/_various.scss */
+.leftRightBtn a {
+  display: block;
+  clear: both;
+  width: 70%;
+  background: #34495e;
+  margin: 3px 15px;
+  border-radius: 3px;
+  color: #fff;
+}
+/* line 1434, ../SCSS/_various.scss */
+.leftRightBtn a i {
+  font-size: 30px;
+}
+
+[class^="pe-7s-"], [class*=" pe-7s-"] {
+	display: inline-block;
+	font-family: 'Pe-icon-7-stroke';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+  /* Better Font Rendering =========== */
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.pe-7s-angle-right:before {
+	content: "\e684";
+}
+
+.pe-7s-angle-left:before {
+	content: "\e686";
+}
